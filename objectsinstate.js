@@ -7,6 +7,7 @@ export default function Login() {
         ...prev,
         [name]: value
       }));
+      // above this is state setter callback function - new object to be returned
     };
   
     return (

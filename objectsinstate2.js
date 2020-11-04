@@ -13,6 +13,8 @@ export default function EditProfile() {
     }));
   };
 
+// Use the spread syntax on collections of dynamic data to copy the previous state into the next state
+
 // above the first argument of callback function is called prevProfile - and we use
 // the spread operator to copy over values from prevProfile into new state object
 
